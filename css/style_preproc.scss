@@ -1,0 +1,312 @@
+
+$whit_color: #fff;
+$orange_color: #e58411;
+
+
+
+@font-face {
+  font-family: 'gilroyregular';
+  src: url('../fonts/Gilroy_regular/gilroy-regular-webfont.eot');
+  src: url('../fonts/Gilroy_regular/gilroy-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy_regular/gilroy-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Gilroy_regular/gilroy-regular-webfont.woff') format('woff'),
+  url('../fonts/Gilroy_regular/gilroy-regular-webfont.ttf') format('truetype'),
+  url('../fonts/Gilroy_regular/gilroy-regular-webfont.svg#gilroyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gilroymedium';
+  src: url('../fonts/Gilroy_medium/gilroy-medium-webfont.eot');
+  src: url('../fonts/Gilroy_medium/gilroy-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy_medium/gilroy-medium-webfont.woff2') format('woff2'),
+  url('../fonts/Gilroy_medium/gilroy-medium-webfont.woff') format('woff'),
+  url('../fonts/Gilroy_medium/gilroy-medium-webfont.ttf') format('truetype'),
+  url('../fonts/Gilroy_medium/gilroy-medium-webfont.svg#gilroymedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gilroybold';
+  src: url('../fonts/Gilroy_bold/gilroy-bold-webfont.eot');
+  src: url('../fonts/Gilroy_bold/gilroy-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy_bold/gilroy-bold-webfont.woff2') format('woff2'),
+  url('../fonts/Gilroy_bold/gilroy-bold-webfont.woff') format('woff'),
+  url('../fonts/Gilroy_bold/gilroy-bold-webfont.ttf') format('truetype'),
+  url('../fonts/Gilroy_bold/gilroy-bold-webfont.svg#gilroybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gilroysemibold';
+  src: url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.eot');
+  src: url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.woff2') format('woff2'),
+  url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.woff') format('woff'),
+  url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.ttf') format('truetype'),
+  url('../fonts/Gilroy_semibold/gilroy-semibold-webfont.svg#gilroysemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'interregular';
+  src: url('../fonts/Inter_regular/inter-regular-webfont.eot');
+  src: url('../fonts/Inter_regular/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter_regular/inter-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Inter_regular/inter-regular-webfont.woff') format('woff'),
+  url('../fonts/Inter_regular/inter-regular-webfont.ttf') format('truetype'),
+  url('../fonts/Inter_regular/inter-regular-webfont.svg#interregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'intermedium';
+  src: url('../fonts/Inter_medium/inter-medium-webfont.eot');
+  src: url('../fonts/Inter_medium/inter-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter_medium/inter-medium-webfont.woff2') format('woff2'),
+  url('../fonts/Inter_medium/inter-medium-webfont.woff') format('woff'),
+  url('../fonts/Inter_medium/inter-medium-webfont.ttf') format('truetype'),
+  url('../fonts/Inter_medium/inter-medium-webfont.svg#intermedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'interbold';
+  src: url('../fonts/Inter_bold/inter-bold-webfont.eot');
+  src: url('../fonts/Inter_bold/inter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter_bold/inter-bold-webfont.woff2') format('woff2'),
+  url('../fonts/Inter_bold/inter-bold-webfont.woff') format('woff'),
+  url('../fonts/Inter_bold/inter-bold-webfont.ttf') format('truetype'),
+  url('../fonts/Inter_bold/inter-bold-webfont.svg#interbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'intersemi_bold';
+  src: url('../fonts/Inter_semibold/inter-semibold-webfont.eot');
+  src: url('../fonts/Inter_semibold/inter-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter_semibold/inter-semibold-webfont.woff2') format('woff2'),
+  url('../fonts/Inter_semibold/inter-semibold-webfont.woff') format('woff'),
+  url('../fonts/Inter_semibold/inter-semibold-webfont.ttf') format('truetype'),
+  url('../fonts/Inter_semibold/inter-semibold-webfont.svg#intersemi_bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'dm_sansregular';
+  src: url('../fonts/Dm_sans_regular/dmsans-regular-webfont.eot');
+  src: url('../fonts/Dm_sans_regular/dmsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Dm_sans_regular/dmsans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Dm_sans_regular/dmsans-regular-webfont.woff') format('woff'),
+  url('../fonts/Dm_sans_regular/dmsans-regular-webfont.ttf') format('truetype'),
+  url('../fonts/Dm_sans_regular/dmsans-regular-webfont.svg#dm_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'dm_sansmedium';
+  src: url('../fonts/Dm_sans_medium/dmsans-medium-webfont.eot');
+  src: url('../fonts/Dm_sans_medium/dmsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Dm_sans_medium/dmsans-medium-webfont.woff2') format('woff2'),
+  url('../fonts/Dm_sans_medium/dmsans-medium-webfont.woff') format('woff'),
+  url('../fonts/Dm_sans_medium/dmsans-medium-webfont.ttf') format('truetype'),
+  url('../fonts/Dm_sans_medium/dmsans-medium-webfont.svg#dm_sansmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'dm_sansbold';
+  src: url('../fonts/Dm_sans_bold/dmsans-bold-webfont.eot');
+  src: url('../fonts/Dm_sans_bold/dmsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Dm_sans_bold/dmsans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/Dm_sans_bold/dmsans-bold-webfont.woff') format('woff'),
+  url('../fonts/Dm_sans_bold/dmsans-bold-webfont.ttf') format('truetype'),
+  url('../fonts/Dm_sans_bold/dmsans-bold-webfont.svg#dm_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  height: 1084px;
+  background-image: url("../images/bagraund fonts.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+
+
+
+  .container {
+    @media screen and (max-width: 1200px){
+      max-width: 1200px;
+
+    }
+    @media screen and (max-width: 992px){
+      max-width: 992px;
+
+    }
+    @media screen and (max-width: 768px){
+      max-width: 768px;
+
+    }
+    max-width: 1440px;
+    padding-top: 40px;
+
+
+    .row {
+      @media screen and (max-width: 768px){
+        position: relative;
+      }
+      justify-content: space-between;
+      margin-bottom: 92px;
+
+
+      p {
+        font-family: 'gilroybold';
+        font-weight: 400;
+        font-size: 28px;
+
+        color: $whit_color;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: space-around;
+
+        padding-top: 9px;
+        padding-left: 0;
+        list-style-type: none;
+
+        li {
+          .menu_arrow {
+            position: relative;
+
+            &:after {
+              position: absolute;
+              content: url("../images/arrow_botom.svg");
+              top: 2px;
+              padding-left: 8px;
+            }
+
+          }
+
+          a {
+            font-family: gilroymedium;
+            font-weight: 400;
+            font-size: 18px;
+            color: $whit_color;
+            text-decoration: none;
+          }
+
+        }
+
+
+      }
+
+      .right_Bag {
+        @media screen and (max-width: 768px){
+          position: absolute;
+          top: 0;
+          right: 10px;
+        }
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5px;
+
+        .Bag {
+          position: relative;
+
+          span {
+            position: absolute;
+            text-decoration: none;
+            font-weight: 500;
+            font-family: gilroymedium;
+            font-size: 14px;
+            color: $whit_color;
+            padding: 0 2px 2px 1px;
+            background: $orange_color;
+            border-radius: 25px;
+            top: 1px;
+            left: 20px;
+          }
+        }
+      }
+
+    }
+  }
+}
+main{
+  .container {
+
+
+
+    h1 {
+      @media screen and (max-width: 768px){
+        font-size: 50px;
+      }
+      @media screen and (max-width: 402px){
+        font-size: 35px;
+      }
+      font-family: gilroybold;
+      font-weight: 400;
+      font-size: 80px;
+      line-height: 130%;
+      letter-spacing: -0.01em;
+      text-transform: capitalize;
+      text-align: center;
+      color: $whit_color;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      @media screen and (max-width: 768px){
+        font-size: 18px;
+      }
+      @media screen and (max-width: 402px){
+        font-size: 14px;
+      }
+      font-family: gilroyregular;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 160%;
+      text-align: center;
+      color: $whit_color;
+
+    }
+  }
+
+}
+
+
+
+
+
+
